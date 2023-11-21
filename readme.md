@@ -1,5 +1,4 @@
-## Service Configuration Endpoint
-
+## Service Configuration Endpoint!
 #### 1. service-emaillist
 1.	default<br/>
 	http://{service-config-server}/service-emaillist/default
