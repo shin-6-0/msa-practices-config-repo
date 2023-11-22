@@ -6,15 +6,12 @@ spring:
    devtools:
       livereload:
          enabled: true
-
    datasource:
       driver-class-name: org.mariadb.jdbc.Driver
       url: jdbc:mariadb://192.168.0.92:3307/webdb?characterEncoding=utf8
       username: webdb
-      password: webdb
-      hikari:
-         minimum-idle: 10
-         maximum-pool-size: 20
+      # password: '{cipher}AQCH0rffA/6pFL196XQecHZqA2UA8vo3JGSSsVnTjiWcFHV9La1OEOK+xoskxHlD31f+10ZveT1Ljm2KVcHPZVZCLNVHgWEQDn+z0HWDrD5CxqX08+Z4b68WYk3zFTLUZxQ30vLDBI2doLGR0hUlJvSBHGLBPpTgBbY3yj6h95nwy2/nEWsJtsZv7uXaa8fqRPuFao90Ukr2uWBYO/LfLZX4z/+sbkqByvj/fxqoI9yu/QUoQCg4/DmcZ6oTaelcJqrEGRjlU1ap+K9suOeybL4ST0XyLPWnpDI+XqqCj1g16YIpdQVBT8n68aVq+6gIwBQ9YOYISnPBezCYkWft+WkidWTwTfKC3i+t83C7FSXttrJfqSYW14Q65uYVz0QDzcQ='
+      password: '{cipher}AQCH0rffA/6pFL196XQecHZqA2UA8vo3JGSSsVnTjiWcFHV9La1OEOK+xoskxHlD31f+10ZveT1Ljm2KVcHPZVZCLNVHgWEQDn+z0HWDrD5CxqX08+Z4b68WYk3zFTLUZxQ30vLDBI2doLGR0hUlJvSBHGLBPpTgBbY3yj6h95nwy2/nEWsJtsZv7uXaa8fqRPuFao90Ukr2uWBYO/LfLZX4z/+sbkqByvj/fxqoI9yu/QUoQCg4/DmcZ6oTaelcJqrEGRjlU1ap+K9suOeybL4ST0XyLPWnpDI+XqqCj1g16YIpdQVBT8n68aVq+6gIwBQ9YOYISnPBezCYkWft+WkidWTwTfKC3i+t83C7FSXttrJfqSYW14Q65uYVz0QDzcQ='
 
 logging:
    pattern:
